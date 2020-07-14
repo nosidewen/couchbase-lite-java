@@ -1,4 +1,3 @@
 include ':libraries:couchbase-lite-java-core', 
-        ':libraries:couchbase-lite-java-forestdb', 
-        ':libraries:couchbase-lite-java-native:sqlite-custom',
-        ':libraries:couchbase-lite-java-native:sqlcipher'
+        ':libraries:couchbase-lite-java-javascript', 
+        ':libraries:couchbase-lite-java-native:sqlite-custom'

@@ -32,12 +32,8 @@ dependencies {
     compile 'org.bouncycastle:bcprov-jdk15on:1.50'
 
     compile buildAgainstMavenArtifacts == null ?
-            project(':libraries:couchbase-lite-java-native:sqlcipher') :
-            'com.couchbase.lite:couchbase-lite-java-sqlcipher' + version
-
-    compile buildAgainstMavenArtifacts == null ?
-            project(':libraries:couchbase-lite-java-forestdb') :
-            'com.couchbase.lite:couchbase-lite-java-forestdb:' + version
+            project(':libraries:couchbase-lite-java-javascript') :
+            'com.couchbase.lite:couchbase-lite-java-javascript' + version
 
     testCompile group: 'junit', name: 'junit', version: '4.11'
 

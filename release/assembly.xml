@@ -23,12 +23,7 @@
             <filtered>false</filtered>
         </file>
         <file>
-            <source>${ZIP_HOME}/couchbase-lite-java-forestdb-${REVISION}.jar</source>
-            <outputDirectory>/</outputDirectory>
-            <filtered>false</filtered>
-        </file>
-        <file>
-            <source>${ZIP_HOME}/couchbase-lite-java-sqlcipher-${REVISION}.jar</source>
+            <source>${ZIP_HOME}/couchbase-lite-java-javascript-${REVISION}.jar</source>
             <outputDirectory>/</outputDirectory>
             <filtered>false</filtered>
         </file>

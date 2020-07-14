@@ -47,14 +47,7 @@
         </dependency>
         <dependency>
             <groupId>com.couchbase.lite</groupId>
-            <artifactId>couchbase-lite-java-sqlcipher</artifactId>
-            <type>jar</type>
-            <version>${REVISION}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.couchbase.lite</groupId>
-            <artifactId>couchbase-lite-java-forestdb</artifactId>
+            <artifactId>couchbase-lite-java-javascript</artifactId>
             <type>jar</type>
             <version>${REVISION}</version>
             <scope>compile</scope>
@@ -174,8 +167,7 @@
 
                                  <copy file="${basedir}/../build/libs/couchbase-lite-java-${REVISION}.jar" tofile="${ZIP_HOME}/couchbase-lite-java-${REVISION}.jar"/>
 
-                                 <copy file="${basedir}/../libraries/couchbase-lite-java-forestdb/build/libs/couchbase-lite-java-forestdb-${REVISION}.jar" todir="${ZIP_HOME}"  preservelastmodified="true" flatten="true" verbose="true" />
-                                 <copy file="${basedir}/../libraries/couchbase-lite-java-native/sqlcipher/build/libs/couchbase-lite-java-sqlcipher-${REVISION}.jar" todir="${ZIP_HOME}"  preservelastmodified="true" flatten="true" verbose="true" />
+                                 <copy file="${basedir}/../libraries/couchbase-lite-java-javascript/build/libs/couchbase-lite-java-javascript-${REVISION}.jar" todir="${ZIP_HOME}"  preservelastmodified="true" flatten="true" verbose="true" />
                                  <copy file="${basedir}/../libraries/couchbase-lite-java-native/sqlite-custom/build/libs/couchbase-lite-java-sqlite-custom-${REVISION}.jar" todir="${ZIP_HOME}"  preservelastmodified="true" flatten="true" verbose="true" />
                                  <copy file="${JAR_SRC_JAVA_CORE}" todir="${ZIP_HOME}"  preservelastmodified="true" flatten="true" verbose="true" />
 

@@ -1,9 +1,15 @@
 [submodule "libraries/couchbase-lite-java-core"]
 	path = libraries/couchbase-lite-java-core
 	url = https://github.com/couchbase/couchbase-lite-java-core.git
-[submodule "libraries/couchbase-lite-java-forestdb"]
-	path = libraries/couchbase-lite-java-forestdb
-	url = https://github.com/couchbaselabs/couchbase-lite-java-forestdb.git
+	branch = release/1.4.1
+[submodule "libraries/couchbase-lite-java-javascript"]
+	path = libraries/couchbase-lite-java-javascript
+	url = https://github.com/couchbase/couchbase-lite-java-javascript
+	branch = release/1.4.1
 [submodule "libraries/couchbase-lite-java-native"]
 	path = libraries/couchbase-lite-java-native
-	url = https://github.com/couchbase/couchbase-lite-java-native.git
+	url = https://github.com/nosidewen/couchbase-lite-java-native.git
+	branch = nosidewen/master
+[submodule "couchbase-lite-java-javascript"]
+	path = couchbase-lite-java-javascript
+	url = https://github.com/couchbase/couchbase-lite-java-javascript
